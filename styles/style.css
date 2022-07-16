@@ -1,0 +1,63 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.sayt
+{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.header
+{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+.navbar
+{
+  height: 60px;
+  border: 1px solid red;  
+}
+
+.navbar ul
+{
+    height: 100%;
+    list-style: none;
+}
+
+.navbar ul li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* width: 100% / to the numbes of lists(li) in ul; */
+    /* for exampe: 100% / 5 = 20% */
+}
+
+.navbar ul li a{
+    display: block;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid blue;
+    text-decoration: none;
+    font-size: 22px;
+    color: yellow;
+    background-color: black;
+    border-right: 1px solid yellow;
+    transition: all .5s ease-in-out;
+}
+
+.navbar ul li a:hover
+{
+    color: black;
+    background-color: yellow;
+ 
+}
